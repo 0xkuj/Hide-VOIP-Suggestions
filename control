@@ -1,0 +1,9 @@
+Package: com.0xkuj.removevoip
+Name: Hide VOIP Suggestions
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Hide the useless VOIP calls options from contacts and recents calls
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
