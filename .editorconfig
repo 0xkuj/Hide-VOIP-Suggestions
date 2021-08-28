@@ -1,8 +1,15 @@
-* linguist-vendored
-*.c linguist-vendored=false
-*.h linguist-vendored=false
-*.c linguist-language=Objective-C
-*.h linguist-language=Objective-C
-*.m linguist-language=Objective-C
-*.xm linguist-language=Objective-C
-*.mm linguist-language=Objective-C
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{xm,h,mm,m}]
+charset = utf-8
+indent_style = tab
+indent_size = 4
