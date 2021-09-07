@@ -6,7 +6,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = RemoveVOIP
 
-RemoveVOIP_FILES = Tweak.x
+RemoveVOIP_FILES = Tweak.xm
 RemoveVOIP_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
